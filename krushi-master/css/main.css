@@ -828,3 +828,63 @@ section.vision-mission .btn-outline-success:hover {
 .social-btn:hover {
   animation: float 1.1s ease-in-out infinite;
 }
+
+/* Card container polish */
+.contact-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+}
+
+/* Card body spacing */
+.contact-card .card-body {
+  padding: 28px;
+}
+
+/* Section headings */
+.contact-card h3.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111827;
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
+/* First heading spacing fix */
+.contact-card h3.card-title:first-child {
+  margin-top: 0;
+}
+
+/* Paragraph styling */
+.contact-card p {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+/* Highlight key values */
+.contact-card p strong {
+  color: #111827;
+  font-weight: 600;
+}
+
+/* Subtle divider between sections */
+.contact-divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 16px 0;
+}
+
+/* Email + Phone hover interaction */
+.contact-card p:hover {
+  color: #111827;
+  transition: color 0.2s ease;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .contact-card .card-body {
+    padding: 20px;
+  }
+}
